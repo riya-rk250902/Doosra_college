@@ -1,0 +1,69 @@
+<!--boilerplate-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> navigation bar</title>
+     <style>
+       .navbar{
+         background-color: yellow;
+       }
+       .navbar ul{
+        overflow: auto;
+       }
+       
+       .navbar li{
+        float:left;
+        list-style: none;
+        padding: 3px 3px;
+        padding-left: 12px 15px ;
+        margin: 13px 20px;
+       }
+          
+         .navbar li a{
+            padding: 3px 3px;
+            padding-bottom:5px 5px ;
+            text-decoration: none;
+            color: black;
+          }
+          .navbar li a hover{
+           background-color: red;
+            }
+         .search{
+            float: left;
+            color:black;
+            padding:12px 75px;
+         }
+         .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 4px;
+            width: 129px;
+
+         }
+     </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <!--this anchor tag will help you to give under link for text-->
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Services</a></li>
+                    <div class="search">
+                    this is search bar
+                       <input type="text"name="search"id="search"placeholder="search the item">
+                    </div>
+                </ul>
+                <div style="display:flex;justify-content:space-between;margin: 25px;">
+
+                <img style="width: 60px; height: 60px;border-radius:50px;" src="./DOOSRA COLLEGE.jpg">
+                </div>
+            </nav>
+        </header>
+    </body>
+</html>
